@@ -56,3 +56,10 @@ void Game::render(){
 
     this->window->display();
 }
+
+void Game::run(){
+    while(this->running()) {
+        this->update();
+        this->render();
+    }
+}
