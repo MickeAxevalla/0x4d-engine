@@ -31,6 +31,7 @@ public:
   void pollEvents();
   void update();
   void render();
+  void run();
   
   
 };
